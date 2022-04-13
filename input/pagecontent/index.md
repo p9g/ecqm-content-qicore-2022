@@ -32,6 +32,8 @@ participant RS as Receiving System
     SS->>DR:ATR Discovery
     DR-->>SS:search results
     SS->>DR:get Group
+    DR-->>SS:FHIR Group
+    Note right of SS: probably need to post Group to RS, part of $submit-data?
     SS->>RS:$submit-data
     RS->>SS:$export
     SS-->>RS:link
