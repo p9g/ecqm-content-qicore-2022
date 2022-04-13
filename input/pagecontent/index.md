@@ -14,7 +14,7 @@ For a complete listing of the Measures in this IG, refer to the [Measures](measu
 
 ### Mermaid sequence diagram test
 
-::: mermaid
+```mermaid
 sequenceDiagram
 participant U as User/Browser
 participant CF as ClinFHIR
@@ -39,4 +39,4 @@ participant RS as Receiving System
     SS-->>RS:reply
     RS->>SS:get ndjson
     SS-->>RS:ndjson
-:::
+```
