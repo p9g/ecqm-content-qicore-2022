@@ -1,0 +1,1 @@
+CQL execution results are placed here

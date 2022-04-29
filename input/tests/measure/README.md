@@ -1,0 +1,1 @@
+Test cases for Measure resources are placed here
