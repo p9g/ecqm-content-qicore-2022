@@ -1,0 +1,1 @@
+FHIR resources for test cases (patients) will be put here, one patient per folder

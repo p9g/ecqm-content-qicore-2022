@@ -1,6 +1,6 @@
 @ECHO OFF
 IF DEFINED CQF-TOOLING-HOME (
-	ECHO Looking in %CQF-TOOLONG-HOME% for jar file
+	ECHO Looking in %CQF-TOOLING-HOME% for jar file
 
 ) else (
 
